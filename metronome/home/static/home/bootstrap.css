@@ -6845,8 +6845,10 @@ svg {
   height: 200;
   width: 200;
 }
+
 .pulse-button {
   display: block;
+  margin: auto;
   width: 200px;
   height: 200px;
   font-size: 1.3em;
