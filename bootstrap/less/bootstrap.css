@@ -6845,27 +6845,32 @@ svg {
   height: 200;
   width: 200;
 }
-circle {
-  stroke: 3;
-  fill: blue;
-  stroke: none;
-  stroke-width: 0;
-  cx: 100;
-  cy: 100;
+.pulse-button {
+  display: block;
+  width: 200px;
+  height: 200px;
+  font-size: 1.3em;
+  font-weight: light;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  background: #5a99d4;
+  box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
 }
-#circ-1 {
-  r: 25%;
-  fill-opacity: 1;
+.pulse-button:hover {
+  -webkit-animation: none;
 }
-#circ-2 {
-  r: 30%;
-  fill-opacity: 0.84;
-}
-#circ-3 {
-  r: 42%;
-  fill-opacity: 0.6;
-}
-#circ-4 {
-  r: 50%;
-  fill-opacity: 0.5;
+@-webkit-keyframes pulse {
+  0% {
+    @include transform(scale(0.9));
+  }
+  70% {
+    @include transform(scale(1));
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    @include transform(scale(0.9));
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
 }
