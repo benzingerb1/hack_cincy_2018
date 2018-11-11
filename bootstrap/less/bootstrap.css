@@ -6820,3 +6820,52 @@ button.close {
     display: none !important;
   }
 }
+.fa-music {
+  padding: 10px 10px 10px 10px;
+}
+.vert-align-cust {
+  vertical-align: middle;
+  color: red;
+}
+.panel-margin-smaw {
+  margin: auto;
+}
+.show-bg {
+  background-color: yellow;
+}
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+svg {
+  height: 200;
+  width: 200;
+}
+circle {
+  stroke: 3;
+  fill: blue;
+  stroke: none;
+  stroke-width: 0;
+  cx: 100;
+  cy: 100;
+}
+#circ-1 {
+  r: 25%;
+  fill-opacity: 1;
+}
+#circ-2 {
+  r: 30%;
+  fill-opacity: 0.84;
+}
+#circ-3 {
+  r: 42%;
+  fill-opacity: 0.6;
+}
+#circ-4 {
+  r: 50%;
+  fill-opacity: 0.5;
+}
