@@ -10,7 +10,7 @@ $.ajax({
         title = exercise[i].title
         $("#exercise-title").text(title);
         // assign "next title"
-        $("#test-button").click(function () {
+        $(".btn").click(function () {
             i++;
             title = exercise[i].title
             $("#exercise-title").text(title);
