@@ -1,76 +1,84 @@
 <!DOCTYPE>
 {% load static %}
 <html>
-  <head>
-    <title>
-      MM - Practice Application
-    </title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static "home/bootstrap.css" %}">
-    <script src="{% static "home/script.js" %}"></script>
+<head>
+  <title>
+    MM - Practice Application
+  </title>
 
-    <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static " home/bootstrap.css" %}">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
 
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <ul class="nav row text-center">
-          <li class="col-md-2">
-            <ul class="nav navbar-nav">
-              <li><a href="routine.html">Routine</a></li>
-              <li><a href="my-stats.html">My Stats</a></li>
-            </ul>
-          </li>
-          <li class="col-md-8"><i class="fas fa-music fa-5x"></i></li>
-          <li class="col-md-2">
-            <ul class="nav navbar-nav">
-              <li><a href="account-settings.html">Account Settings</a></li>
-              <li><a href="login.html">Sign Out</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <!-- <br><br><br> -->
-      <div id="exercise-display" class="jumbotron">
-        <h1 class="text-center">
-          C - Major [ First Position ]
-        </h1>
+      <ul class="nav row text-center">
+        <li class="col-md-2">
+          <ul class="nav navbar-nav">
+            <li><a href="routine.html">Routine</a></li>
+            <li><a href="my-stats.html">My Stats</a></li>
+          </ul>
+        </li>
+        <li class="col-md-8"><i class="fas fa-music fa-5x"></i></li>
+        <li class="col-md-2">
+          <ul class="nav navbar-nav">
+            <li><a href="account-settings.html">Account Settings</a></li>
+            <li><a href="login.html">Sign Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <!-- <br><br><br> -->
+    <div id="exercise-display" class="jumbotron">
+      <h1 class="text-center" id="exercise-title">
+        <!-- exercise title will load here -->
+      </h1>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-5 text-center">
       </div>
-      <div class="row text-center">
-        <div class="col-md-5 text-center">
-        </div>
-        <div class="col-md-2">
-          <div id="metronome-beacon" class="text-center">
-            <svg>
-              <circle id="circ-5" />
-              <circle id="circ-4" />
-              <circle id="circ-3" />
-              <circle id="circ-2" />
-              <circle id="circ-1" />
-            </svg>
-          </div>
-        </div>
-        <div class="col-md-5 text-center">
+      <div class="col-md-2">
+        <div id="metronome-beacon" class="text-center">
+          <svg>
+            <circle id="circ-5" />
+            <circle id="circ-4" />
+            <circle id="circ-3" />
+            <circle id="circ-2" />
+            <circle id="circ-1" />
+          </svg>
         </div>
       </div>
-      <br><br>
-      <div class="jumbotron text-center">
-        <h1>
-          BPM:
-        </h1>
+      <div class="col-md-5 text-center">
       </div>
     </div>
-  </body>
+    <br><br>
+    <div class="jumbotron text-center">
+      <button id="test-button" class="btn btn-primary">Next</button>
+    </div>
+  </div>
+  <div class="modal">
+    <!-- Place at bottom of page -->
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{% static "home/script.js" %}"></script>
+</body>
 </html>
