@@ -1,0 +1,18 @@
+<h1>hello world</h1>
+<div id="test">change this</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $.ajax({
+        url: '/api/exercise',
+        success: function(data) {
+            console.log(JSON.stringify(data));
+            for (i = 0;){
+                // display the exercise name
+                // set the metronome time according to the exercise
+                // set a timer for 1 minute per exercise
+
+            }
+        }
+    })
+</script>

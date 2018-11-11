@@ -1,3 +1,5 @@
+from api.models import Exercise
+
 # Create array holding notes A-G
 notes = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
 # Create array holding all different scales (major, minor, pentatonic, myxolidian, dorian, etc)
@@ -6,7 +8,10 @@ scales = ['Major', 'Minor', 'Major Pentatonic', 'Minor Pentatonic', 'Blues', 'My
 # Outer for loop to go through each note
 for note in notes:
     for scale in scales:
-        print(note, scale)
+        exerciseName = note + " " + scale
+        print(exerciseName)
+        e = Exercise(title=exerciseName)
+        e.save()
 # Inner for loop to go through each scale
 # Within each inner loop, print out the title of
 

@@ -1,0 +1,214 @@
+{
+    "meta": {
+        "limit": 1000,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total_count": 51
+    },
+    "objects": [{
+        "id": 1,
+        "resource_uri": "/api/exercise/1/",
+        "title": "C Major Scale"
+    }, {
+        "id": 2,
+        "resource_uri": "/api/exercise/2/",
+        "title": "D Major Scale"
+    }, {
+        "id": 3,
+        "resource_uri": "/api/exercise/3/",
+        "title": "C Major"
+    }, {
+        "id": 4,
+        "resource_uri": "/api/exercise/4/",
+        "title": "C Minor"
+    }, {
+        "id": 5,
+        "resource_uri": "/api/exercise/5/",
+        "title": "C Major Pentatonic"
+    }, {
+        "id": 6,
+        "resource_uri": "/api/exercise/6/",
+        "title": "C Minor Pentatonic"
+    }, {
+        "id": 7,
+        "resource_uri": "/api/exercise/7/",
+        "title": "C Blues"
+    }, {
+        "id": 8,
+        "resource_uri": "/api/exercise/8/",
+        "title": "C Myxolidian"
+    }, {
+        "id": 9,
+        "resource_uri": "/api/exercise/9/",
+        "title": "C Dorian"
+    }, {
+        "id": 10,
+        "resource_uri": "/api/exercise/10/",
+        "title": "D Major"
+    }, {
+        "id": 11,
+        "resource_uri": "/api/exercise/11/",
+        "title": "D Minor"
+    }, {
+        "id": 12,
+        "resource_uri": "/api/exercise/12/",
+        "title": "D Major Pentatonic"
+    }, {
+        "id": 13,
+        "resource_uri": "/api/exercise/13/",
+        "title": "D Minor Pentatonic"
+    }, {
+        "id": 14,
+        "resource_uri": "/api/exercise/14/",
+        "title": "D Blues"
+    }, {
+        "id": 15,
+        "resource_uri": "/api/exercise/15/",
+        "title": "D Myxolidian"
+    }, {
+        "id": 16,
+        "resource_uri": "/api/exercise/16/",
+        "title": "D Dorian"
+    }, {
+        "id": 17,
+        "resource_uri": "/api/exercise/17/",
+        "title": "E Major"
+    }, {
+        "id": 18,
+        "resource_uri": "/api/exercise/18/",
+        "title": "E Minor"
+    }, {
+        "id": 19,
+        "resource_uri": "/api/exercise/19/",
+        "title": "E Major Pentatonic"
+    }, {
+        "id": 20,
+        "resource_uri": "/api/exercise/20/",
+        "title": "E Minor Pentatonic"
+    }, {
+        "id": 21,
+        "resource_uri": "/api/exercise/21/",
+        "title": "E Blues"
+    }, {
+        "id": 22,
+        "resource_uri": "/api/exercise/22/",
+        "title": "E Myxolidian"
+    }, {
+        "id": 23,
+        "resource_uri": "/api/exercise/23/",
+        "title": "E Dorian"
+    }, {
+        "id": 24,
+        "resource_uri": "/api/exercise/24/",
+        "title": "F Major"
+    }, {
+        "id": 25,
+        "resource_uri": "/api/exercise/25/",
+        "title": "F Minor"
+    }, {
+        "id": 26,
+        "resource_uri": "/api/exercise/26/",
+        "title": "F Major Pentatonic"
+    }, {
+        "id": 27,
+        "resource_uri": "/api/exercise/27/",
+        "title": "F Minor Pentatonic"
+    }, {
+        "id": 28,
+        "resource_uri": "/api/exercise/28/",
+        "title": "F Blues"
+    }, {
+        "id": 29,
+        "resource_uri": "/api/exercise/29/",
+        "title": "F Myxolidian"
+    }, {
+        "id": 30,
+        "resource_uri": "/api/exercise/30/",
+        "title": "F Dorian"
+    }, {
+        "id": 31,
+        "resource_uri": "/api/exercise/31/",
+        "title": "G Major"
+    }, {
+        "id": 32,
+        "resource_uri": "/api/exercise/32/",
+        "title": "G Minor"
+    }, {
+        "id": 33,
+        "resource_uri": "/api/exercise/33/",
+        "title": "G Major Pentatonic"
+    }, {
+        "id": 34,
+        "resource_uri": "/api/exercise/34/",
+        "title": "G Minor Pentatonic"
+    }, {
+        "id": 35,
+        "resource_uri": "/api/exercise/35/",
+        "title": "G Blues"
+    }, {
+        "id": 36,
+        "resource_uri": "/api/exercise/36/",
+        "title": "G Myxolidian"
+    }, {
+        "id": 37,
+        "resource_uri": "/api/exercise/37/",
+        "title": "G Dorian"
+    }, {
+        "id": 38,
+        "resource_uri": "/api/exercise/38/",
+        "title": "A Major"
+    }, {
+        "id": 39,
+        "resource_uri": "/api/exercise/39/",
+        "title": "A Minor"
+    }, {
+        "id": 40,
+        "resource_uri": "/api/exercise/40/",
+        "title": "A Major Pentatonic"
+    }, {
+        "id": 41,
+        "resource_uri": "/api/exercise/41/",
+        "title": "A Minor Pentatonic"
+    }, {
+        "id": 42,
+        "resource_uri": "/api/exercise/42/",
+        "title": "A Blues"
+    }, {
+        "id": 43,
+        "resource_uri": "/api/exercise/43/",
+        "title": "A Myxolidian"
+    }, {
+        "id": 44,
+        "resource_uri": "/api/exercise/44/",
+        "title": "A Dorian"
+    }, {
+        "id": 45,
+        "resource_uri": "/api/exercise/45/",
+        "title": "B Major"
+    }, {
+        "id": 46,
+        "resource_uri": "/api/exercise/46/",
+        "title": "B Minor"
+    }, {
+        "id": 47,
+        "resource_uri": "/api/exercise/47/",
+        "title": "B Major Pentatonic"
+    }, {
+        "id": 48,
+        "resource_uri": "/api/exercise/48/",
+        "title": "B Minor Pentatonic"
+    }, {
+        "id": 49,
+        "resource_uri": "/api/exercise/49/",
+        "title": "B Blues"
+    }, {
+        "id": 50,
+        "resource_uri": "/api/exercise/50/",
+        "title": "B Myxolidian"
+    }, {
+        "id": 51,
+        "resource_uri": "/api/exercise/51/",
+        "title": "B Dorian"
+    }]
+}
