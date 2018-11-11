@@ -5,9 +5,12 @@
 <script>
     $.ajax({
         url: '/api/exercise',
+        dataType: 'json',
         success: function(data) {
-            console.log(JSON.stringify(data));
-            for (i = 0;){
+            exercise = data.objects;
+            for (i = 0; i < exercise.length; i++){
+                console.log(exercise[i].title);
+
                 // display the exercise name
                 // set the metronome time according to the exercise
                 // set a timer for 1 minute per exercise
